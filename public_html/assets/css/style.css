@@ -1,0 +1,203 @@
+/* ======================================= CSS======================================== */
+<style>
+
+  
+html,body {
+	padding: 0px;
+	margin: 0px;		
+}
+
+html {
+   background: #ccc;
+   width: 100%;
+   height: 100%;
+   position: relative;
+
+}
+
+body{
+	background: #ccc	
+}
+
+.container{
+	position: relative;
+	min-height: 900px;
+	background: #fff
+
+}
+
+.innerWrapper{
+	position: relative;
+	min-height: 650px;
+	   	border: 5px solid red;
+
+}
+
+
+#title1{
+	position: relative;
+	font-size: 200%;
+	top: 10%;
+	display: none;
+}
+
+
+.inst{
+	margin-top: 40px;
+	display: none;
+	position: relative;
+	font-size: 140%;
+	font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	white-space: nowrap;
+}
+
+.headphones{
+	display: none;
+	position: relative;
+	top: 0%;
+	left: 30%;
+	width: 400px;
+   	height: 400px;
+}
+
+.passButtons{
+	display: none;
+	position: absolute;
+	z-index: 90;
+	left: 80%;
+	top: 90%;
+	font-size: 150%;
+	width: 20%;
+}
+
+
+
+.Dbuttons{
+	display: none;
+}
+
+
+#Dbutton1{
+	position: relative;
+	left: 80px;
+	top: 250px;
+	width:6em;
+	height:6em;
+}	
+#Dbutton2{
+	position: relative;
+	left: 280px;
+	top: 250px;
+	width:6em;
+	height:6em;
+}	
+#Dbutton3{
+	position: relative;
+	left: 480px;
+	top: 250px;
+	width:6em;
+	height:6em;
+}	
+#Dbutton4{
+	position: relative;
+	left: 680px;
+	top: 250px;
+	width:6em;
+	height:6em;
+}	
+
+#axis{
+	position: relative;
+	left: 300px;
+	top: 290px;
+}	
+
+.textQuestion{
+	display: none;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	font-size: 250%;
+}
+
+.Qbuttons{
+	display: none;
+}
+
+#button1{
+	position: relative;
+	left: 680px;
+	top: 300px;
+	width:13em;
+	height:13em;
+}	
+
+
+#button2{
+	position: relative;
+	left: 80px;
+	top: 300px;
+	width:13em;
+	height:13em;
+}	
+
+
+.feedback{
+	display: none;
+	position: absolute;
+	top: 30%;
+	left: 37%;
+	width: 25%;
+   	height: 40%;
+}
+
+.taskCue{
+	display: none;
+	position: relative;
+	left: 480px;
+	top: 300px;
+	font-size: 300%;
+
+}
+
+#counter{
+
+	position: absolute;
+	left: 650px;
+	top: 380px;
+	width: 100%
+}
+#blockFeed{
+	display: none;
+	position: relative;
+	left:50px;
+	top: 300px;
+	font-size: 200%;
+	width: 200%;
+}
+
+
+.loading{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 200px;
+}
+
+
+.thanks{
+
+	display: none;
+	position: relative;
+	font-size: 240%;
+	font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	left: 330px;
+	top: 200px;
+	}
+
+/*#progressbarPre{
+	position: absolute;
+	top: 50%
+}
+*/
+
+</style>
